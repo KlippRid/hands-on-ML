@@ -20,3 +20,6 @@ def fetch_tar_file(data_url=HOUSING_URL, data_path=HOUSING_PATH, file_name="hous
 def load_csv_data(data_path=HOUSING_PATH, file_name="housing.csv"):
     csv_path = os.path.join(data_path, "housing.csv")
     return pd.read_csv(csv_path)
+
+def test_new_things():
+    return NULL
