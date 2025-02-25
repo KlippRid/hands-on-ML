@@ -1,0 +1,30 @@
+[project]
+name = "hands-on-ml"
+version = "0.1.0"
+description = "project to follow along with code examples to the book Hands on Machine Learning"
+readme = "README.md"
+requires-python = ">=3.9"
+dependencies = [
+    "jupyter",
+    "matplotlib",
+    "numpy",
+    "pandas",
+    "scipy",
+    "scikit-learn",
+    "ruff"
+]
+
+[tool.setuptools]
+packages = ["mltools"]
+
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[tool.ruff]  # linting tool
+line-length = 88
+extend-select = ["E", "F"]
+
+# Uncomment if you have console scripts
+# [project.scripts]
+# run-ble-server = "bleserver.ble_server:main"
