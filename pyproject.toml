@@ -10,7 +10,8 @@ dependencies = [
     "numpy",
     "pandas",
     "scipy",
-    "scikit-learn"
+    "scikit-learn",
+    "ruff"
 ]
 
 [tool.setuptools]
